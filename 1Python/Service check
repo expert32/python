@@ -1,0 +1,7 @@
+try:
+    win32serviceutil.QueryServiceStatus('myservice')
+except:
+    print ("Windows service NOT installed")
+else:
+    print ("Windows service installed")
+imp
